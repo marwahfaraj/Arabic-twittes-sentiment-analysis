@@ -1,4 +1,4 @@
-# Arabic-twittes-sentiment-analysis
+# Arabic-tweets-sentiment-analysis
 ![](image/presentation.jpg)
 ----
 ## Marwah Faraj<br>
