@@ -33,12 +33,12 @@ Used to write many languages besides Arabic: Persian, Kurdish, Urdu, etc.
 ![](image/arabic.png)
 
 # The main challenges for Arabic Language Processing:
-1- Orthographic ambiguity.
-2- Morphological richness.
-3- Dialectal variation.
-4- Orthographic inconsistency.
-5- Resource poverty (data & tools).
-6- Limited research.
+1- Orthographic ambiguity.<br>
+2- Morphological richness.<br>
+3- Dialectal variation.<br>
+4- Orthographic inconsistency.<br>
+5- Resource poverty (data & tools).<br>
+6- Limited research.<br>
 
 ----
 ## Pipline
