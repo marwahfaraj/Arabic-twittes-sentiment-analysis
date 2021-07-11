@@ -50,13 +50,12 @@ Noticed this dataset do not contian null values as shown in the dataset info, bu
 
 # visualization
 ## The data status: Balance data
-
 ![](image/balance_data.png)
 
-The arabic people use the word ‘God’ a lot in their conversation and as shown the most common word is ‘God’.
+The arabic people use the word ‘God’ a lot in their conversation and as shown the most common word is ‘God’
 ![](image/postive_top_words.png)
 
-For the same reason the most common word in the negative tweets is ‘God’.
+For the same reason the most common word in the negative tweets is ‘God’
 ![](image/negative_top_words.png)
 
 
