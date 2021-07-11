@@ -123,8 +123,9 @@ Diffrient machine learning algorithms implemented and used to predict on unseed 
   
 ----
 ## Further study
-- looking for emoji and how it could change the analysis.                                   ![](image/nwordcloud.jpg)
+- looking for emoji and how it could change the analysis.                                   
 - Use Camel Tool Modules in preparing the text to use in machine learning models.
+![](image/n_wordcloud.jpg)
 
 
 
