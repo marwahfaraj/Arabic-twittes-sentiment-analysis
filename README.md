@@ -77,7 +77,7 @@ Diffrient machine learning algorithms implemented and used to predict on unseed 
   Recall= 0.610<br>
   F1= 0.700<br>
   
- 2-Ridge Classifier:<br>
+ 2- Ridge Classifier:<br>
    Accuracy= 0.792<br>
    Precision= 0.810<br>
    Recall= 0.770<br>
@@ -94,6 +94,16 @@ Diffrient machine learning algorithms implemented and used to predict on unseed 
      Precision= 0.780<br>
      Recall= 0.490<br>
      F1= 0.600<br>
-  
+     
+  ## Deep Learning
+  # Multi layer perseptron
+    loos score= 0.4372<br>
+    Accuracy= 0.804<br>
+   
+   ![](image/mlp_cm.jpg)
+   
+ # The MLP model did not predict all the positive and negative tweets correctly, as it appeared in the graph, there are 974 negative tweet were    predicted positive, also there are 1251 positive tweets were predicted negative.  
+
+    
 
 
