@@ -15,8 +15,9 @@
    
 5. [Exploration](#exploration)
 6. [Visualization](#visualization)
-7. [Machine Learning](#ML)
-8. [Further Study](#further-study)
+7. [Machine Learning](#ml)
+8. [Conclusions](#conclusions)
+9. [Further Study](#further-study)
 
 ## Background and Motivation
 This dataset consist of data From Arabic tweets, and it is contain of 56812 rows and 2 columns. I’m useing NLP(Natural language processing) and imlpement sentiment analysis and then use Machine Learning Algorthims: Naive Bayes(Multinomial Naive Bayes, Gaussian Naive Bayes), Ridge Classifier, and Logistic Regression) and Deap Learning algorthims: Multi-Layer Perceptron (MLP) and Convolutional Neural Nets (CNN), to predict whether the comment is postive or negative.
@@ -64,7 +65,7 @@ For the same reason the most common word in the negative tweets is ‘God’
 
 ----
 ## Machine Learning
-Diffrient machine learning algorithms implemented and used to predict on unseed dataset and give diffriend scors as detealed blew:<br>
+Diffrient machine learning algorithms implemented and used to predict on unseed dataset to classify new tweet and give diffriend scors as detealed bellow:<br>
 1- Naive Bayes Algorithm:
 - Multinomial Naive Bayes algorthim: <br>
   Accuracy= 0.767<br>
@@ -103,6 +104,33 @@ Diffrient machine learning algorithms implemented and used to predict on unseed 
    ![](image/mlp_cm.jpg)
    
  ### The MLP model did not predict all the positive and negative tweets correctly, as it appeared in the graph, there are 974 negative tweet were    predicted positive, also there are 1251 positive tweets were predicted negative.  
+ 
+ ## Machine Learning Algorithms comparison:
+ 
+ ![](image/model_comparision.jpg)
+ 
+ ### Nural Newtwork/ Multi layer perceptrone gave the higher accuracy score 80.4% but it is a time concuming to train, and if time matter, so Ridge classifier model took less time to train and gave a 79.2%.
+ 
+----
+## Testing the model on new tweets...
+
+
+----
+## Conclusions
+- Using deep learning by applying Multilayer Perceptron (MLP) in prediction gave the higher accuracy among the models 80.4%.<br>
+- Sentiment analysis is extremely useful in social media monitoring as it allows us to gain an overview of the wider public opinion behind certain    
+  topics, and looking for toxic post and been using that in banning people who wrote it.
+  
+----
+## Further study
+- looking for emoji and how it could change the analysis.                                   ![image/nwordcloud.jpg]
+- Use Camel Tool Modules in preparing the text to use in machine learning models.
+
+
+
+
+ 
+ 
 
     
 
