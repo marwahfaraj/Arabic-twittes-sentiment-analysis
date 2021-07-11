@@ -103,13 +103,13 @@ Diffrient machine learning algorithms implemented and used to predict on unseed 
    
    ![](image/mlp_cm.jpg)
    
- ### The MLP model did not predict all the positive and negative tweets correctly, as it appeared in the graph, there are 974 negative tweet were    predicted positive, also there are 1251 positive tweets were predicted negative.  
+ The MLP model did not predict all the positive and negative tweets correctly, as it appeared in the graph, there are 974 negative tweet were    predicted positive, also there are 1251 positive tweets were predicted negative.  
  
  ## Machine Learning Algorithms comparison:
  
  ![](image/model_comparision.jpg)
  
- ### Nural Newtwork/ Multi layer perceptrone gave the higher accuracy score 80.4% but it is a time concuming to train, and if time matter, so Ridge classifier model took less time to train and gave a 79.2%.
+ Nural Newtwork/ Multi layer perceptrone gave the higher accuracy score 80.4% but it is a time concuming to train, and if time matter, so Ridge classifier model took less time to train and gave a 79.2%.
  
 ----
 ## Testing the model on new tweets...
