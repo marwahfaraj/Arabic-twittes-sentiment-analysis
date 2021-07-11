@@ -96,9 +96,9 @@ Diffrient machine learning algorithms implemented and used to predict on unseed 
      F1= 0.600<br>
      
   ## Deep Learning
-  1- Multi layer perseptron
-    loos score= 0.4372
-    Accuracy= 0.804
+  1- Multi layer perseptron:<br>
+    loos score= 0.4372<br>
+    Accuracy= 0.804<br>
    
    ![](image/mlp_cm.jpg)
    
