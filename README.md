@@ -27,9 +27,10 @@ This dataset consists of data from Arabic tweets, and it has 56 thousand tweets.
 
 ## Description
 # Arabic Script
-Written right-to-left
-Letters have contextual variants
-Used to write many languages besides Arabic: Persian, Kurdish, Urdu, etc.
+Written right-to-left<br>
+Letters have contextual variants<br>
+Used to write many languages besides Arabic: Persian, Kurdish, Urdu, etc.<br>
+
 ![](image/arabic.png)
 
 # The main challenges for Arabic Language Processing:
@@ -50,13 +51,49 @@ Noticed this dataset do not contian null values as shown in the dataset info, bu
 
 # visualization
 ## The data status: Balance data
+
 ![](image/balance_data.jpg)
 
 The arabic people use the word ‘God’ a lot in their conversation and as shown the most common word is ‘God’
+
 ![](image/postive_top_words.jpg)
 
 For the same reason the most common word in the negative tweets is ‘God’
+
 ![](image/negative_top_words.jpg)
 
+----
+## Machine Learning
+Diffrient machine learning algorithms implemented and used to predict on unseed dataset and give diffriend scors as detealed blew:<br>
+1- Naive Bayes Algorithm:
+- Multinomial Naive Bayes algorthim: <br>
+  Accuracy= 0.767<br>
+  Precision= 0.770<br>
+  Recall= 0.760<br>
+  F1= 0.770<br>
+- Gaussian Naive Bayes algorthim: <br>
+  Accuracy= 0.741<br>
+  Precision= 0.830<br>
+  Recall= 0.610<br>
+  F1= 0.700<br>
+  
+ 2-Ridge Classifier:<br>
+   Accuracy= 0.792<br>
+   Precision= 0.810<br>
+   Recall= 0.770<br>
+   F1= 0.790<br>
+   
+ 3- LogisticRegression Algorithm:<br>
+    Accuracy= 0.790<br>
+    Precision= 0.820<br>
+    Recall= 0.750<br>
+    F1= 0.780<br>
+    
+ 4- Random Foreset Algorthim:<br>
+     Accuracy= 0.677<br>
+     Precision= 0.780<br>
+     Recall= 0.490<br>
+     F1= 0.600<br>
+  
 
 
