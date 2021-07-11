@@ -96,13 +96,13 @@ Diffrient machine learning algorithms implemented and used to predict on unseed 
      F1= 0.600<br>
      
   ## Deep Learning
-  # Multi layer perseptron
-    loos score= 0.4372<br>
-    Accuracy= 0.804<br>
+  1- Multi layer perseptron
+    loos score= 0.4372
+    Accuracy= 0.804
    
    ![](image/mlp_cm.jpg)
    
- # The MLP model did not predict all the positive and negative tweets correctly, as it appeared in the graph, there are 974 negative tweet were    predicted positive, also there are 1251 positive tweets were predicted negative.  
+ ### The MLP model did not predict all the positive and negative tweets correctly, as it appeared in the graph, there are 974 negative tweet were    predicted positive, also there are 1251 positive tweets were predicted negative.  
 
     
 
