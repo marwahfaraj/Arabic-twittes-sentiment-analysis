@@ -1,0 +1,37 @@
+from flask import Flask, render_template
+from flask import request, jsonify
+from sklearn.feature_extraction.text import TfidfVectorizer
+from tensorflow.keras.models import load_model
+
+app = Flask(__name__)
+loaded_model =load_model('app/mlp_model.h5')
+
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+
+@app.route('/model', methods=['GET', 'POST'])
+def model():
+    inputs = request.args
+    feature = []
+    for key, val in inputs.items():
+        feature.append(str(val))
+
+    word_vectorizer = TfidfVectorizer(
+    sublinear_tf=True,
+    strip_accents='unicode',
+    analyzer='word',
+    ngram_range=(1, 1),
+    max_features =10000)
+
+    
+
+    co_input = word_vectorizer.transform(feature)
+    results = loaded_model.predict(co_input)
+    if results >=1:
+        res = 'Postive_tweet'
+    else:
+        res = 'Negative_tweet'
+    return jsonify(model_result=res)
