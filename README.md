@@ -20,7 +20,7 @@
 9. [Further Study](#further-study)
 
 ## Background and Motivation
-This dataset consist of data From Arabic tweets, and it is contain of 56812 rows and 2 columns. I’m useing NLP(Natural language processing) and imlpement sentiment analysis and then use Machine Learning Algorthims: Naive Bayes(Multinomial Naive Bayes, Gaussian Naive Bayes), Ridge Classifier, and Logistic Regression) and Deap Learning algorthims: Multi-Layer Perceptron (MLP) and Convolutional Neural Nets (CNN), to predict whether the comment is postive or negative.
+This dataset consists of more than 56 thousand tweets in Arabic Language. I’m using NLP (Natural Language Processing) to implement sentiment analysis and Machine Learning Algorithms to classify whether the sentiment is positive or negative.
 
 ----
 ## Data
