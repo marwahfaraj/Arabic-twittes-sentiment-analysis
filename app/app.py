@@ -1,10 +1,14 @@
+from os import times
 from flask import Flask, render_template
 from flask import request, jsonify
 from sklearn.feature_extraction.text import TfidfVectorizer
 from tensorflow.keras.models import load_model
+import joblib
 
 app = Flask(__name__)
-loaded_model =load_model('app/mlp_model.h5')
+loaded_model = load_model('mlp_model.h5')
+# with open('tfidf_model.joblib', 'r') as f:
+word_vectorizer = joblib.load('tfidf_model.joblib')
 
 
 @app.route('/')
@@ -19,18 +23,10 @@ def model():
     for key, val in inputs.items():
         feature.append(str(val))
 
-    word_vectorizer = TfidfVectorizer(
-    sublinear_tf=True,
-    strip_accents='unicode',
-    analyzer='word',
-    ngram_range=(1, 1),
-    max_features =10000)
-
-    
-
     co_input = word_vectorizer.transform(feature)
+    co_input.sort_indices()
     results = loaded_model.predict(co_input)
-    if results >=1:
+    if results >= 0.5:
         res = 'Postive_tweet'
     else:
         res = 'Negative_tweet'

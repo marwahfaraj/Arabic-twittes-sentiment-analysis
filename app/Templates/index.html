@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title> Arabic tweet sentiment predictor</title>
+        <style>
+            img {
+                height: 100vh;
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 0 20px;
+                font-weight: bold;
+            }
+            .username {
+                font-weight: bold ;
+            }
+            body {
+            background-image: url("/static/background.jpg");
+         }
+        </style>
+
+        
+
+    </head>
+    <body>
+        <span>tweet_text:</span> <input id="input_1"></input><br>
+        
+       
+
+
+        <button type="button" id="submit">Submit</button>
+
+
+        <p id=result> </p>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type=text/javascript>
+
+        let display_results = function(data) {
+            $("p#result").text(data.model_result);
+            }
+
+
+        let send_data = function() {
+        $.getJSON('/model', {
+        input_1: $('input[id="input_1"]').val(),
+        }, display_results);
+        }
+
+        
+
+        $(function() {
+            $('button#submit').click(send_data);
+            });
+
+    
+        </script>
+
+    </body>
+</html>
