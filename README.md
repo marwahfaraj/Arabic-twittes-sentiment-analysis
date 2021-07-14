@@ -47,11 +47,12 @@ This dataset consists of more than 56 thousand tweets in Arabic Language, and it
 
 ----
 ## Pipline
-The pandas, numpy, NLTK library, for machine learning: Multinomial Naive Bayes, Gaussian Naive Bayes, Ridge_classifier, Logstic Regression, Random Forest, for deep learning: Multilayer perseptron/ Tenseorflow, keras,  matplotlib, and seaborn software libraries was used to examine, plot and analyze this data.<br>
+The pandas, numpy, NLTK library, machine learning: Multinomial Naive Bayes, Gaussian Naive Bayes, Ridge_classifier, Logstic Regression, Random Forest, deep learning: Multilayer perseptron/ Tenseorflow, keras,  matplotlib, and seaborn software libraries was used to examine, plot, analyze and classify this data.<br>
 
 ----
 ## Exploration
-Noticed this dataset do not contian null values as shown in the dataset info, but noticed that it contains a lot of empjies. After further exploration notice that there is english words and english numbers in the dataset, and the dataset is a balance data.
+Noticed this dataset do not contian null values as shown in the dataset info, but noticed that it contains a lot of emojies. 
+After further exploration notice that there is english words and english numbers in the dataset, and the dataset is a balance data.
 
 # visualization
 ## The data status: Balance data
@@ -68,14 +69,14 @@ For the same reason the most common word in the negative tweets is ‘God’
 
 ----
 ## Machine Learning
-Diffrient machine learning algorithms implemented and used to predict on unseed dataset to classify new tweet and give diffriend scors as detealed bellow:<br>
+Diffrient machine learning algorithms implemented and used to predict on unseed dataset to classify new tweet and give difrint scores as detailed below:<br>
 1- Naive Bayes Algorithm:
-- Multinomial Naive Bayes algorthim: <br>
+- Multinomial Naive Bayes Algorthim: <br>
   Accuracy= 0.767<br>
   Precision= 0.770<br>
   Recall= 0.760<br>
   F1= 0.770<br>
-- Gaussian Naive Bayes algorthim: <br>
+- Gaussian Naive Bayes Algorthim: <br>
   Accuracy= 0.741<br>
   Precision= 0.830<br>
   Recall= 0.610<br>
@@ -106,28 +107,26 @@ Diffrient machine learning algorithms implemented and used to predict on unseed 
    
    ![](image/mlp_cm.jpg)
    
- The MLP model did not predict all the positive and negative tweets correctly, as it appeared in the graph, there are 974 negative tweet were    predicted positive, also there are 1251 positive tweets were predicted negative.  
+ The MLP model did not predict all the positive and negative tweets correctly, as it appeared in the graph, there are 974 negative tweet were predicted positive, also there are 1251 positive tweets were predicted negative.  
  
  ## Machine Learning Algorithms comparison:
  
  ![](image/model_comparision.jpg)
  
- Nural Newtwork/ Multi layer perceptrone gave the higher accuracy score 80.4% but it is a time concuming to train, and if time matter, so Ridge classifier model took less time to train and gave a 79.2%.
- 
-----
-## Testing the model on new tweets...
-
+ Nural Newtwork/ Multi layer perceptrone gave the higher accuracy score 80.4% but it is a time concuming to train, and for that Ridge classifier model took less time to train and gave a 79.2%.
+ The MLP model is deployed in flask app to predict on new tweet and classify it weather it is positive or negative.
 
 ----
 ## Conclusions
 - Using deep learning by applying Multilayer Perceptron (MLP) in prediction gave the higher accuracy among the models 80.4%.<br>
-- Sentiment analysis is extremely useful in social media monitoring as it allows us to gain an overview of the wider public opinion behind certain    
-  topics, and looking for toxic post and been using that in banning people who wrote it.
+- Sentiment analysis is extremely useful in social media monitoring as it allows us to gain an overview of the wider public opinion behind certain topics, and monitor for toxic posts to warn and ban offending users.
+
   
 ----
 ## Further study
-- looking for emoji and how it could change the analysis.                                   
-- Use Camel Tool Modules in preparing the text to use in machine learning models.
+- Consider emoji and how it could change the analysis.
+- Use Camel Tool Modules in preparing the text to use in machine learning Models. (Arabic Language specific library)
+
 ![](image/n_wordcloud.jpg)
 
 
