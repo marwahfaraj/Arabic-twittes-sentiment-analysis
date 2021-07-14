@@ -30,9 +30,9 @@ This dataset consists of more than 56 thousand tweets in Arabic Language, and it
 
 ## Description
 # Arabic Script
-Written right-to-left<br>
-Letters have contextual variants<br>
-Used to write many languages besides Arabic: Persian, Kurdish, Urdu, etc.<br>
+- Written right-to-left<br>
+- Letters have contextual variants<br>
+- Used to write many languages besides Arabic: Persian, Kurdish, Urdu, etc.<br>
 
 ![](image/arabic.png)
 
