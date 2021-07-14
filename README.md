@@ -69,7 +69,7 @@ For the same reason the most common word in the negative tweets is ‘God’
 
 ----
 ## Machine Learning
-Diffrient machine learning algorithms implemented and used to predict on unseed dataset to classify new tweet and give difrint scores as detailed below:<br>
+Diffrient machine learning algorithms implemented and used to predict on unseed dataset to classify new tweet and give diffrint scores as detailed below:<br>
 1- Naive Bayes Algorithm:
 - Multinomial Naive Bayes Algorthim: <br>
   Accuracy= 0.767<br>
