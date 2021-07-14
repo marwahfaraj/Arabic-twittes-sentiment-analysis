@@ -113,7 +113,7 @@ Diffrient machine learning algorithms implemented and used to predict on unseed 
  
  ![](image/model_comparision.jpg)
  
- Nural Newtwork/ Multi layer perceptrone gave the higher accuracy score 80.4% but it is a time concuming to train, and for that Ridge classifier model took less time to train and gave a 79.2%.
+ Nural Newtwork/ Multi layer perceptrone gave the higher accuracy score 80.4% but it is a time consuming to train, and for that Ridge classifier model took less time to train and gave a 79.2%.
  The MLP model is deployed in flask app to predict on new tweet and classify it weather it is positive or negative.
 
 ----
