@@ -20,7 +20,7 @@
 9. [Further Study](#further-study)
 
 ## Background and Motivation
-This dataset consists of more than 56 thousand tweets in Arabic Language. I’m using NLP (Natural Language Processing) to implement sentiment analysis and Machine Learning Algorithms to classify whether the sentiment is positive or negative.
+Implementing sentiment analysis in Arabic Language. I’m using NLP (Natural Language Processing) to demonstrate that and Machine Learning Algorithms to classify whether the sentiment is positive or negative.
 
 ----
 ## Data
