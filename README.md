@@ -37,12 +37,12 @@ This dataset consists of more than 56 thousand tweets in Arabic Language, and it
 ![](image/arabic.png)
 
 # The main challenges for Arabic Language Processing:
-1- Orthographic ambiguity.<br>
-2- Morphological richness.<br>
-3- Dialectal variation.<br>
-4- Orthographic inconsistency.<br>
-5- Resource poverty (data & tools).<br>
-6- Limited research.<br>
+- Orthographic ambiguity.<br>
+- Morphological richness.<br>
+- Dialectal variation.<br>
+- Orthographic inconsistency.<br>
+- Resource poverty (data & tools).<br>
+- Limited research.<br>
 
 ----
 ## Pipline
