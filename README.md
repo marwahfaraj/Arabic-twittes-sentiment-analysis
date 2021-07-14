@@ -24,7 +24,9 @@ Implementing sentiment analysis in Arabic Language. I’m using NLP (Natural Lan
 
 ----
 ## Data
-This dataset consists of data from Arabic tweets, and it has 56 thousand tweets. It contain a positive tweets and negative tweets. I’m using NLP(Natural language processing) and implement sentiment analysis and then use Machine Learning Algorithms to classify whether the comment is positive or negative.
+This dataset consists of more than 56 thousand tweets in Arabic Language, and it is devided into 2 part, more than 28500 positive tweets and more than 28300 negative tweet, and it does not contain any null value.
+
+
 
 ## Description
 # Arabic Script
