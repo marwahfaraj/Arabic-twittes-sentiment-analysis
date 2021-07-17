@@ -1,0 +1,36 @@
+Postitive tweet:
+1- 👌🏻مرحبا، حبيت اشاركم فرحتي 😊، اشتركت في برنامج مكثف لدراسة علوم البيانات وتخرجت مكتسبة الكثير من المعلومات
+the translation:
+My translation:
+Hi, I would like to share my happiness with you, I enrolled in immersive program to study data science and I graduated gaining a lot of information.
+Google translate:
+Hello, I wanted to share with you my joy, I participated in an intensive program to study data science and graduated with a lot of information
+
+
+2-أعلنت وزيرة الصحة في مصر هالة زايد اليوم الأربعاء، إطلاق المشروع القومي للتبرع بالبلازما، ضمن مبادرة رئيس الجمهورية والاكتفاء الذاتي من مشتقات البلازما
+My translation:
+Hala Zaid, head of Minstry of Health in Egypt, announce on Wednesday that she started a national project to donate blood plasma as the president initaive to ensure the self sufficiency of blood plasma.  
+Goggle translate:
+Today, Wednesday, the Minister of Health in Egypt, Hala Zayed, announced the launch of the national project for donating plasma, as part of the initiative of the President of the Republic and self-sufficiency in plasma derivatives.
+
+
+Negative tweet:
+1- 😡من المؤسف ما حدث في السنة الماضية 😥 وعدد الناس الذين ماتو بعد اصابتهم بالكرونا😭 والمؤسف اكثر انه لم ينتهي بعد 
+My translate:
+What happen last year it is unfortunate and how many people died after get infected with coronavirus, and what more unfortunate is it's not over.
+Google translate:
+It is unfortunate what happened last year and the number of people who died by infected of corona, and it is even more unfortunate that it is not over yet
+
+2-اشتقت ل حديثك ، و كأني لم احادثك منذ سنين 💔
+My translate:
+I missed our chats, like it been years since last time we talk.
+Google translate:
+I miss talking to you, as if I haven't spoken to you in years
+
+
+Could be either positive and negative:
+- كيف ممكن يكون الحال افضل مما هو عليه الان؟
+My Translate:
+How could the situation be better than now?
+Google Translate:
+How could it be better than it is now?

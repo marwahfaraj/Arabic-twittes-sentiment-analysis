@@ -26,7 +26,7 @@ def model():
     co_input = word_vectorizer.transform(feature)
     co_input.sort_indices()
     results = loaded_model.predict(co_input)
-    if results >= 0.5:
+    if results >= 0.4:
         res = 'Postive_tweet'
     else:
         res = 'Negative_tweet'
