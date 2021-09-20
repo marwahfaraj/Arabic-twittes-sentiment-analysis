@@ -118,7 +118,7 @@ Diffrient machine learning algorithms implemented and used to predict on unseed 
 
 ## Deploy the Model in Flask app
 
-![](image/flask.jpg)
+![](image/flask.png)
 
 ----
 ## Conclusions
