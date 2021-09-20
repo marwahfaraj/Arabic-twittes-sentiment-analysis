@@ -116,6 +116,10 @@ Diffrient machine learning algorithms implemented and used to predict on unseed 
  Nural Newtwork/ Multi layer perceptrone gave the higher accuracy score 80.4% but it is a time consuming to train, and for that Ridge classifier model took less time to train and gave a 79.2%.
  The MLP model is deployed in flask app to predict on new tweet and classify it weather it is positive or negative.
 
+## Deploy the Model in Flask app
+
+![](image/flask.jpg)
+
 ----
 ## Conclusions
 - Using deep learning by applying Multilayer Perceptron (MLP) in prediction gave the higher accuracy among the models 80.4%.<br>
